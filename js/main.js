@@ -10,3 +10,4 @@ choiceArray.forEach((card) => {
         card.classList.add('expand')
     });
 });
+AOS.init();
