@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" >
     <link rel="stylesheet" href="./css/carousel.css" >
+    <link rel="stylesheet" href="./css/aos.css" >
     <link rel="stylesheet" href="./css/style.css" >
    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
   </head>
@@ -121,8 +122,9 @@
 
 
       <div class="container">
-        <div class="card-group">
-          <div class="card">
+        <div class="card-group" >
+          <div class="card" data-aos="fade-up"
+          data-aos-anchor-placement="center-center">
             <img class="card-img-top" src="./img/3918929.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">I can Work On</h5>
@@ -130,7 +132,8 @@
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up"
+          data-aos-anchor-placement="center-center">
             <img class="card-img-top" src="./img/life_style_working_02.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">My Specialization</h5>
@@ -139,7 +142,7 @@
             </div>
           </div>
 
-         <div class="container horizontal-accordion">
+         <div class="container horizontal-accordion" data-aos="zoom-out-up">
                                                     <h1>Key points to Web developer which I follow</h1>
   <div class="card choice unset bg-primary text-white ">
     <div class="card-body">
@@ -191,11 +194,14 @@
         <hr class="featurette-divider">
 
         <div class="row featurette" style="margin-top: 4rem;">
-          <div class="col-md-7">
+          <div class="col-md-7" data-aos="fade-right"  
+          data-aos-duration="1000">
             <h2 class="featurette-heading">Things I know</h2>
             <p class="lead">Our codes are hand-typed, well documented, seo friendly and w3c validated. Each site we develop is using the latest development principles and techniques to meet modern web standards. We specialize in HTML5, CSS/CSS3, BOOTSTRAP, JAVASCRIPT/JQUERY. Feel free to contact us, cheers!</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-left"
+     
+          data-aos-duration="500">
             <img class="featurette-image img-fluid mx-auto" src="./img/2590506.jpg" alt="Generic placeholder image">
           </div>
         </div>
@@ -203,11 +209,15 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2" data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <h2 class="featurette-heading">Seeing myself.</h2>
             <p class="lead">I work fast and you will get guaranteed quality result. Lets order a gig or gigs.</p>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="col-md-5 order-md-1" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <img class="featurette-image img-fluid mx-auto" src="./img/2636676.jpg" alt="Generic placeholder image">
           </div>
         </div>
@@ -215,11 +225,11 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7" data-aos="fade-up">
             <h2 class="featurette-heading">An Idea Will Change the World.</h2>
             <p class="lead">I am open for innovative ideas.</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5" data-aos="fade-down">
             <img class="featurette-image img-fluid mx-auto" src="./img/diego-ph-fIq0tET6llw-unsplash.jpg" alt="Generic placeholder image">
           </div>
         </div>
@@ -235,13 +245,13 @@
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
+    <div class="me-5 d-none d-lg-block" data-aos="zoom-in-down">
       <span>Get connected with me</span>
     </div>
     <!-- Left -->
 
     <!-- Right -->
-    <div>
+    <div data-aos="zoom-out-left" data-aos-duration="2500">
       <a href="https://www.linkedin.com/in/shankara-perumal-arunachalam-1b40b6187/" class="me-4 link-secondary">
         <i class="fab fa-linkedin"></i>
       </a>
@@ -254,16 +264,21 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <section class="">
+  <section class="" 
+  
+  >
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-         
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <div class="d-flex justify-content-between" style="
+          align-items: baseline;
+      ">
+                <h6 class="text-uppercase fw-bold">Contact</h6>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-envelope me-3 text-secondary"></i><a class="contactmail" href="mailto:idofshankar@gmail.com">&nbsp;&nbsp;&nbsp;&nbsp;idofshankar@gmail.com</a>
+               </div>
           <p>
-            <i class="fas fa-envelope me-3 text-secondary"></i>
-            <a class="contactmail" href="mailto:idofshankar@gmail.com">idofshankar@gmail.com</a>
+           
+            
             <a class="btn btn-lg btn-secondary" href="#" data-toggle="modal" data-target="#gridSystemModal">Contact Me</a>
           </p>
         </div>
@@ -281,6 +296,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/aos.js"></script>
 					  <script src="./js/main.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
